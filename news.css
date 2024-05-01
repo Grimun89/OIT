@@ -1,0 +1,22 @@
+.news {
+    margin-top: 20px; /* Отступ сверху */
+}
+
+.news article {
+    background-color: #f9f9f9; /* Цвет фона для каждой новости */
+    padding: 20px; /* Внутренний отступ */
+    border-radius: 5px; /* Скругление углов */
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Тень блока */
+}
+
+.news h2 {
+    color: #333; /* Цвет заголовка */
+    font-size: 24px; /* Размер шрифта заголовка */
+    margin-bottom: 10px; /* Отступ снизу */
+}
+
+.news p {
+    color: #666; /* Цвет текста */
+    font-size: 20px; /* Размер шрифта */
+    line-height: 1.6; /* Межстрочный интервал */
+}
