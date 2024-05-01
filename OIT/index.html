@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Главная страница</title>
+    <link rel="stylesheet" href="index.css">
+    <link rel="stylesheet" href="header.css">
+    <script src="mouseon.js" defer></script>
+    <style>
+        table {
+            width: 800px; 
+            height: 500px; 
+            margin: auto;
+            margin-top: 200px;
+            
+        }
+        button {
+            background: none;
+            border: none;
+            color: rgb(0, 0, 0); 
+            cursor: pointer; 
+            font-size: medium; 
+            padding: 0; 
+            margin: 0; 
+        }
+    </style>
+    <script>
+        alert("Добро пожаловать, путник!")
+    </script>
+    <script>
+        function greet() {
+            var name = prompt('Введите ваше имя:');
+            if (name) {
+                alert('My greeting upon thee, ' + name + '!');
+            }
+        }
+    </script>
+
+</head>
+<body>
+<section class="header_wrap">
+    <header id="header">
+        <a href="index.html">
+            <img src="logo.png" class="logo">
+        </a>
+        <nav>
+            <ul class="menu">
+                <li><a href="index.html">Главная</a></li>
+                <li><a href="game.html">Игры месяца</a></li>
+                <li><a href="about.html">Игровые новости</a></li>
+                <li><button onclick="greet()">Name thyself, Tarnished!</button></li>
+            </ul>
+        </nav>
+    </header>
+</section>
+
+<section>
+    <table border="0">
+        <tr>
+            <td></td>
+            <td style="font-size: 26px;"><a href="game.html" class="change-colour" style="text-decoration: none; ">ВСЕ О ИГРАХ МЕСЯЦА</a></td>
+            <td></td>
+        </tr>
+        <tr>
+            <td><img src="https://1.bp.blogspot.com/-8QBq3tV15rM/Vg5JQ5-quoI/AAAAAAAABH8/ECRgtUqWQpA/s1600/titanfall_Icon_Tweaks_and_Fixes.png" class="tbimg"> </td>
+            <td><img src="https://avatars.dzeninfra.ru/get-zen_doc/5235030/pub_643abe7e7e984279d53be6f5_643abeefb727dd713a6584d1/scale_1200" class="tbimg"> </td>
+            <td><img src="https://steamuserimages-a.akamaihd.net/ugc/87095243496079769/37CACC7EA2772907E41A473C7B4DA121BFFA206C/?imw=512&amp;&amp;ima=fit&amp;impolicy=Letterbox&amp;imcolor=%23000000&amp;letterbox=false" class="tbimg"> </td>
+        </tr>
+        <tr>
+            <td><img src="https://pic.rutubelist.ru/video/23/f9/23f91e93777d8bbea451bf01763cf4ab.jpg" class="tbimg"> </td>
+            <td><img src="https://gas-kvas.com/grafic/uploads/posts/2023-09/1695793713_gas-kvas-com-p-kartinki-robloks-19.jpg" class="tbimg"> </td>
+            <td><img src="https://i.playground.ru/p/W4wuQ-IExzVHN8CFFi7QDw.jpeg" class="tbimg"> </td>
+        </tr>
+    </table>
+</section>
+
+<section>
+
+</section>
+
+</body>
+</html>
